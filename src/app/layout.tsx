@@ -21,7 +21,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children /*this a the pagetsx */ }
-        <Footer/> </body>
+        </body>
     </html>
   );
 }

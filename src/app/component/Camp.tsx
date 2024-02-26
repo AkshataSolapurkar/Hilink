@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import { PEOPLE_URL } from '../../constants';
+import { PEOPLE_URL } from '../../../constants';
 
 interface  Campprops{
   backgroundImage: string;
