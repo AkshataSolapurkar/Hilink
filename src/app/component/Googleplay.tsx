@@ -15,14 +15,14 @@ const Googleplay = () => {
               title="App Store"
               icon="/apple.svg"
               varient="btn_white"
-              full
+              full={true}
             />
             <Button 
               type="button"
               title="Play Store"
               icon="/android.svg"
               varient="btn_dark_green_outline"
-              full
+              full={true}
             />
           </div>
 
