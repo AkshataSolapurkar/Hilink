@@ -6,7 +6,7 @@ type Featureitem = {
   title: string;
   icon: string;
   description: string;
-}
+  key:string}
 
 const FeatureItem =({title,icon,description,key}:Featureitem)=>{
   
