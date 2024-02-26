@@ -2,13 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import { FEATURES } from '../../../constants'
 
-type FeatureItem = {
+type Featureitem = {
   title: string;
   icon: string;
   description: string;
 }
 
-const FeatureItem =({title,icon,description,key})=>{
+const FeatureItem =({title,icon,description,key}:Featureitem)=>{
   
   return(
     <li className="flex w-full flex-1 flex-col items-start">
